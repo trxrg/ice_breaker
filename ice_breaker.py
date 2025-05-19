@@ -27,7 +27,8 @@ if __name__ == '__main__':
     # )
 
     llm = ChatOllama(
-        model="llama3.2",
+        model="mistral",
+        # model="llama3.2",
         temperature=0
     )
 
